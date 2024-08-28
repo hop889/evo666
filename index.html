@@ -5,14 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title></title>
     <style>
-        /* 新增以下部分，確保 body 和 html 的高度覆蓋整個視窗 */
-        html, body {
-            height: 100%;
+        body {
             margin: 0;
             padding: 0;
-        }
-
-        body {
             display: flex;
             justify-content: center;
             align-items: center;
@@ -27,11 +22,9 @@
             height: auto; 
         }
 
-        /* 修改背景圖片的樣式，確保其完整顯示 */
         .background-image {
             width: 100%;
-            height: 100vh; /* 改為100vh，確保背景圖片填滿整個視窗 */
-            object-fit: cover; /* 確保圖片按比例填充容器 */
+            height: auto;
             display: block;
         }
 
